@@ -12,3 +12,8 @@ Neste repositório está contido scripts simples para realizar operações matem
    - git add .
    - git commit -m "aa"
    - git push origin main
+
+
+# Explicação do código python
+
+Esse código implementa um menu de calculadora que opera em um loop infinito (while True), permitindo ao usuário escolher entre soma, subtração, multiplicação, divisão ou encerrar o programa. Dependendo da opção selecionada, ele solicita dois números e realiza a operação correspondente. Para evitar erros de divisão por zero, há um sub-loop que solicita repetidamente um número válido para o divisor. O programa também trata opções inválidas, exibindo uma mensagem apropriada, e encerra o loop quando o usuário escolhe a opção de saída (opcao == '5').
