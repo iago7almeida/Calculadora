@@ -1,0 +1,20 @@
+nano calculadora.py
+script calculadora em código python
+
+
+nano calculadora.sh
+	script que chama o aplicação da calculadora
+
+
+
+chmod u+x calculadora.sh
+chmod u+w,go-w calculadora.sh
+chmod a+r calculadora.sh
+chmod a+x calculadora.sh # Alterar a permissão para todos os usuários poderem executar
+ll ---> para verificar
+
+para rodar o calculador abasta rodar ./calculadora.sh
+
+1. Digite primeiramente a opção
+2. Escolha o primeiro e o segundo número
+3. Veja o resulatado pelo script
